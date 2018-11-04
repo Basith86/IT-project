@@ -1,0 +1,35 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" runat="server">
+<head runat="server">
+    
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" >
+        <title> Manipal University</title>
+    
+     <div id="title">
+         <img id="image" src="https://slcm.manipal.edu/images/logo.png" alt="photo"> 
+     </div>
+    <div>
+  <ul>
+  <li><a href="Default.aspx">Home</a></li>
+  <li><a href="Register.aspx">Student</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>     
+     </div>
+
+</head>
+<body> 
+     
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+    </body>
+
+        <div class="footer">
+  <p>Imad & Basith</p>
+</div>
+    
+
+</html>
