@@ -1,6 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/MasterPage.master" CodeFile="organisation.aspx.cs" Inherits="organisation" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+        <style>
+    #form1{
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 16px;
+        }
+    </style>
     <form id="form1" runat="server">
              Welcome <asp:Label ID="TextBox4" runat="server"></asp:Label> <br /> <br /> 
         <div>

@@ -15,7 +15,7 @@
   <ul>
   <li><a href="Default.aspx">Home</a></li>
   <li><a href="Register.aspx">Student</a></li>
-  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="AdminPage.aspx">Admin</a></li>
   <li><a href="about.asp">About</a></li>
 </ul>     
      </div>
